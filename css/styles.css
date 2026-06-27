@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('../assets/background.png'); /* replace with your image filename */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+
+.profile-box {
+  background-color: #ff574a;
+  color: #fff;
+  border-radius: 20px;
+  padding: 40px 90px;
+  text-align: center;
+  position: relative;
+}
+
+.top-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -50px;
+}
+
+.menu-icon,
+.setting-icon {
+  width: 25px;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  padding: 6px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+h3 {
+  margin: 10px 0 5px;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-media img {
+  width: 20px;
+  cursor: pointer;
+}
